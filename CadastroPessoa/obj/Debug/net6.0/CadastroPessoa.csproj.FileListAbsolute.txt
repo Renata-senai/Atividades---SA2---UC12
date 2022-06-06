@@ -1,0 +1,15 @@
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\bin\Debug\net6.0\CadastroPessoa.exe
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\bin\Debug\net6.0\CadastroPessoa.deps.json
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\bin\Debug\net6.0\CadastroPessoa.runtimeconfig.json
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\bin\Debug\net6.0\CadastroPessoa.dll
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\bin\Debug\net6.0\CadastroPessoa.pdb
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\obj\Debug\net6.0\CadastroPessoa.csproj.AssemblyReference.cache
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\obj\Debug\net6.0\CadastroPessoa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\obj\Debug\net6.0\CadastroPessoa.AssemblyInfoInputs.cache
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\obj\Debug\net6.0\CadastroPessoa.AssemblyInfo.cs
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\obj\Debug\net6.0\CadastroPessoa.csproj.CoreCompileInputs.cache
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\obj\Debug\net6.0\CadastroPessoa.dll
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\obj\Debug\net6.0\refint\CadastroPessoa.dll
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\obj\Debug\net6.0\CadastroPessoa.pdb
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\obj\Debug\net6.0\CadastroPessoa.genruntimeconfig.cache
+C:\Users\lorie\OneDrive\Área de Trabalho\Atividades - SA2 - UC12\CadastroPessoa\obj\Debug\net6.0\ref\CadastroPessoa.dll
