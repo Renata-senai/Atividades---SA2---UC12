@@ -8,7 +8,7 @@ Console.WriteLine(@$"
 ===========================================
 ");
 
-Utils.BarraCarregamento("Iniciando", 100, 40);
+LoadingBar("Iniciando", 100, 40);
 
 List<PessoaFisica> listaPf = new List<PessoaFisica>();
 List<PessoaJuridica> listaPj = new List<PessoaJuridica>();
@@ -73,10 +73,11 @@ do
                 if (dataValida)
                 {
                    DateTime DataConvertida;
-                   DateTime.TryParse(dataNascimento ou DataConvertida);
+                   DateTime.TryParse(dataNascimento, out DataConvertida);
 
                    novaPf.dataNasc = DataConvertida; 
                 }
+
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.DarkRed;
@@ -157,10 +158,10 @@ Imposto a ser pago: {metodosPf.PagarImposto(cadaPessoa.Rendimento).ToString("C")
 
             default:
             Console.Clear();
-            Console.ForegroundColor - ConsoleColor.DarkRed;
+            Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine($"Opção Inválida, por favor digite uma opção válida");
             Console.ResetColor();
-            Thred.Sleep(3000);
+            Thread.Sleep(3000);
                 break;
         }
   
@@ -252,13 +253,13 @@ Imposto a ser pago: {metodosPf.PagarImposto(cadaPessoa.Rendimento).ToString("C")
                             {
                                 Console.Clear();
                                 Console.WriteLine(@$"
-Nome: {cadaPessoaJ.nome}
-Razão Social: {cadaPessoaJ.razaoSocial}
-CNPJ: {cadaPessoaJ.cnpj}, Válido: {(metodosPj.validarCnpj(cadaPessoaJ.cnpj) ? "sim" : "não")}
-Endereço: {cadaPessoaJ.endereco.logradouro}, {cadaPessoaJ.endereco.numero}, {cadaPessoaJ.endereco.complemento}
-Endereço comercial: {(cadaPessoaJ.endereco.endComercial ? "sim" : "não")}
-Rendimento: {cadaPessoaJ.rendimento}
-Imposto devido: {metodosPj.PagarImposto(cadaPessoaJ.rendimento).ToString("C")}
+Nome: {cadaPessoaJ.Nome}
+Razão Social: {cadaPessoaJ.RazaoSocial}
+CNPJ: {cadaPessoaJ.Cnpj}, Válido: {(metodosPj.ValidarCnpj(cadaPessoaJ.Cnpj) ? "sim" : "não")}
+Endereço: {cadaPessoaJ.Endereco.logradouro}, {cadaPessoaJ.Endereco.numero}, {cadaPessoaJ.Endereco.complemento}
+Endereço comercial: {(cadaPessoaJ.Endereco.endComercial ? "sim" : "não")}
+Rendimento: {cadaPessoaJ.Rendimento}
+Imposto devido: {metodosPj.PagarImposto(cadaPessoaJ.Rendimento).ToString("C")}
 ");
 
                                 Console.WriteLine($"Aperte ENTER para continuar!");
@@ -313,10 +314,10 @@ Imposto devido: {metodosPj.PagarImposto(cadaPessoaJ.rendimento).ToString("C")}
 
         default:
             Console.Clear();
-            Console.ForegroundColor - ConsoleColor.DarkRed;
+            Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine($"Opção Inválida, por favor digite uma opção válida");
             Console.ResetColor();
-            Thred.Sleep(3000)
+            Thread.Sleep(3000)
             break;
     }
     
