@@ -28,7 +28,7 @@ do
 ============================================
 ");
 
-    string opcao = Console.ReadLine();
+    opcao = Console.ReadLine();
 
     switch (opcao)
     {
