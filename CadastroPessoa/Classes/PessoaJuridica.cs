@@ -63,5 +63,42 @@ namespace CadastroPessoa.Classes
 
             return false;
         }
+        public void Inserir(PessoaJuridica pj){
+            
+            Utils.VerificarPastaArquivo(caminho);
+
+            string[] pjStrings = {$"{pj.Nome},{pj.RazaoSocial},{pj.Cnpj},{pj.Endereco.logradouro},{pj.Endereco.numero},{pj.Endereco.complemento},{pj.Endereco.endComercial},{pj.Rendimento}"};
+
+            File.AppendAllLines(caminho, pjStrings);
+        }
+
+        public List<PessoaJuridica> LerArquivo(){
+
+            List<PessoaJuridica> listaPj = new List<PessoaJuridica>();
+
+            string[] linhas = File.ReadAllLines(caminho);
+
+            foreach (string cadaLinha in linhas)
+            {
+                string[] atributos = cadaLinha.Split(",");
+
+                PessoaJuridica cadaPj = new PessoaJuridica();
+
+                cadaPj.Nome = atributos[0];
+                cadaPj.RazaoSocial = atributos[1];
+                cadaPj.Cnpj = atributos[2];
+                // cadaPj.endereco.logradouro[3];
+                // cadaPj.endereco.numero = atributos[3];
+                cadaPj.Endereco.complemento = atributos[4]; 
+                // cadaPj.endereco.endComercial = atributos[5];
+                // cadaPj.rendimento = atributos[6];          
+                               
+                
+
+                listaPj.Add(cadaPj);
+            }
+
+            return listaPj;
+        }
     }
 }
