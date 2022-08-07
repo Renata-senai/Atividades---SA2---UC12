@@ -32,7 +32,7 @@ Sistema Operacional Windows, IOS ou Linux
 Máquina virtual do .NET Core
 Execução da Aplicação
 Clonar o repositório, usando o Git, com o comando abaixo:
-git clone https://github.com/danieldmonteiro/senai-uc12
+git clone https://github.com/Renata-senai/Atividades---SA2---UC12
 
 Abrir a pasta do projeto
 
